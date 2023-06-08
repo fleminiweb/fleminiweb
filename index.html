@@ -18,6 +18,7 @@
     <meta property="og:title" content="FLEMINI - Video Editor & Motion Designer">
     <meta property="og:description" content="I've worked with content creators from various categories while improving my skills for over five years. I primarily specialize in gaming, gambling, IRL, and documentary content. I'm here to advance your content one step further with my expertise.">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <title>FLEMINI - Video Editor & Motion Designer</title>
 </head>
 <body id="about" class="fadeUp2">
@@ -90,21 +91,21 @@
         </div>
         <div class="section">
             <div class="container">
-                <div class="gif-container ">
+                <div class="gif-container">
                     <div class="gif">
-                        <video id="myVideo" width="100%"  loop controls="false" preload="metadata">
+                        <video id="myVideo1" width="100%" autoplay loop controls="false" preload="metadata">
                             <source src="img/motionedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
                     </div>
-                     
                     <div class="gif">
-                        <video id="myVideo" width="100%"  loop controls="false" preload="metadata">
+                        <video id="myVideo2" width="100%" autoplay loop controls="false" preload="metadata">
                             <source src="img/contentedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
                     </div>
                 </div>
+
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/şan-pertev-2353261a4/?originalSubdomain=tr" target="_blank"
                         class="linked">
@@ -436,16 +437,7 @@
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-    const video = document.getElementById('myVideo');
 
-    // Sayfa tamamen yüklendiğinde videoyu otomatik olarak başlat
-    window.addEventListener('load', () => {
-      video.addEventListener('canplaythrough', () => {
-        video.play();
-      }, { once: true });
-    });
-  </script>
 <script>
     // Particles.js yapılandırması
     particlesJS("particles-js", {
@@ -554,6 +546,6 @@
         "retina_detect": true
     });
 </script>
-  
+
 </body>
 </html>
