@@ -93,13 +93,13 @@
             <div class="container">
                 <div class="gif-container">
                     <div class="gif">
-                        <video id="myVideo1" width="100%" loop controls="false" preload="metadata">
+                        <video id="myVideo1" width="100%" loop controls="false" autoplay muted loop playsinline preload="metadata">
                             <source src="img/motionedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
                     </div>
                     <div class="gif">
-                        <video id="myVideo2" width="100%" loop controls="false" preload="metadata">
+                        <video id="myVideo2" width="100%" loop controls="false" autoplay muted loop playsinline preload="metadata">
                             <source src="img/contentedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
@@ -437,18 +437,6 @@
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-    const video1 = document.getElementById('myVideo1');
-    const video2 = document.getElementById('myVideo2');
-    window.addEventListener("mousemove", ()=>{
-        video1.play();
-        video2.play();
-    })
-    setTimeout(() => {
-        video1.play();
-        video2.play();
-    }, 1000);
-</script>
 <script>
     // Particles.js yapılandırması
     particlesJS("particles-js", {
