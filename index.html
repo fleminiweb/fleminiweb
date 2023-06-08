@@ -435,7 +435,14 @@
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    const video = document.getElementById('myVideo');
 
+    // Sayfa tamamen yüklendiğinde videoyu otomatik olarak başlat
+    window.addEventListener('load', () => {
+        video.play();
+    });
+</script>
 <script>
     // Particles.js yapılandırması
     particlesJS("particles-js", {
