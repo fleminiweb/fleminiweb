@@ -15,22 +15,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
-video {
-    display: block;
-    width: 100%;
-}
 
-video:hover::-webkit-media-controls {
-    display: none !important;
-}
-
-video:hover::-webkit-media-controls-enclosure {
-    display: none !important;
-}
-
-video:hover::-webkit-media-controls-panel {
-    display: none !important;
-}
 nav{
     position: fixed;
     top: 0;
