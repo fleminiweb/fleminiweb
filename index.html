@@ -92,13 +92,14 @@
             <div class="container">
                 <div class="gif-container ">
                     <div class="gif">
-                        <video id="myVideo" width="100%" autoplay loop controls="false" preload="metadata">
+                        <video id="myVideo" width="100%"  loop controls="false" preload="metadata">
                             <source src="img/motionedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
                     </div>
+                     
                     <div class="gif">
-                        <video id="myVideo" width="100%" autoplay loop controls="false" preload="metadata">
+                        <video id="myVideo" width="100%"  loop controls="false" preload="metadata">
                             <source src="img/contentedit_flemini.mp4" type="video/mp4">
                             Tarayıcınız video etiketini desteklemiyor.
                         </video>
@@ -440,9 +441,11 @@
 
     // Sayfa tamamen yüklendiğinde videoyu otomatik olarak başlat
     window.addEventListener('load', () => {
+      video.addEventListener('canplaythrough', () => {
         video.play();
+      }, { once: true });
     });
-</script>
+  </script>
 <script>
     // Particles.js yapılandırması
     particlesJS("particles-js", {
