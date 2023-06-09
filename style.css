@@ -217,13 +217,18 @@ nav{
 .gif-container{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+
+.flemini{
+    position: relative;
+    top: 80px;
 }
 
 
-
 .gif{
-    width: 45%;
-
+    width: 100%;
+    margin-bottom: 50px;
     background: #ffffff3e;
     border-radius: 5px;
 }
