@@ -9,6 +9,10 @@
     flex-direction: column;
     justify-content: center;
 }
+.flemini {
+    position: relative;
+    top: auto;
+}
 .img-section img {
     width: 250px;
     height: 250px;
