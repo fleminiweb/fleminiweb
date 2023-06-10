@@ -5,7 +5,10 @@
 .client-box{
     width: 33.3%;
 }
-.home-container{
+.nav-mask{
+    height: 100px;
+}
+.setting{
     flex-direction: column;
     justify-content: center;
 }
@@ -13,11 +16,15 @@
     position: relative;
     top: auto;
 }
+.img-section{
+        margin: 0 ;
+}
 .img-section img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     background: #ffffff3e;
+
 }
 .home-alt{
     text-align: center;

@@ -164,9 +164,7 @@ nav{
     cursor: pointer;
 }
 
-.nav-mask{
-    height: 100px;
-}
+
 
 .section{
     scroll-margin-top: 80px;
@@ -178,10 +176,15 @@ nav{
 }
 
 .home-container{
-    padding-top: 100px;
+    height: 60vh;
+}
+.setting {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    min-height: 60vh;
+    height: 100%;
+    width: 100%;
 }
 .img-section{
     display: flex;
